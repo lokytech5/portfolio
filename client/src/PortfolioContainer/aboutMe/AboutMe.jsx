@@ -67,7 +67,7 @@ export default function AboutMe(props) {
 
                             <a className='a-highlight' href='lokos-Resume.pdf' download='lokosman-Resume.pdf'>
                                 <button className='bttn highlighted-btn'
-                                    style={{ width: "150px" }}>Get Resume</button>
+                                    style={{ width: "250px" }}>Get Resume</button>
                             </a>
 
                         </div>
