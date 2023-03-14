@@ -38,7 +38,8 @@ code {
   color: var(--color-text-light); 
    border: 3px solid var(--color-text-light);
   background-color: var(--primary);
-
+  padding-bottom: 0px;
+  padding-top: 0px;
 }
 
 .btn:active {

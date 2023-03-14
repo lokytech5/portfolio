@@ -4,6 +4,7 @@ import ScreenHeading from '../../utilities/ScreenHeading/ScreenHeading'
 import ScrollService from '../../utilities/ScrollService'
 import Animations from '../../utilities/Animations'
 import './AboutMe.css'
+import { padding } from '@mui/system'
 
 export default function AboutMe(props) {
     let fadeInScreenHandler = (screen) => {
@@ -67,7 +68,7 @@ export default function AboutMe(props) {
 
                             <a className='a-highlight' href='lokos-Resume.pdf' download='lokosman-Resume.pdf'>
                                 <button className='bttn highlighted-btn'
-                                    style={{ width: "250px" }}>Get Resume</button>
+                                    style={{ width: "150px", "padding-top": "0px", "padding-bottom": "0px" }}>Get Resume</button>
                             </a>
 
                         </div>
