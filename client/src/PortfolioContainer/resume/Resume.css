@@ -1,0 +1,260 @@
+.resume-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: fit-content;
+    margin: 50px 0;
+}
+
+.resume-card{
+    display: flex;
+    height: 400px;
+    width: 1000px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.resume-bullets {
+    height: 100%;
+    box-shadow: 15px 0 9px -15px #1f2235;
+    width: 320px;
+}
+
+.resume-bullet-details {
+    flex-grow: 1;
+    width: 600px;
+    overflow: hidden;
+    padding: 0 0 0 70px;
+}
+
+.experience-description{
+    margin: 10px 0 0 0;
+    text-align: justify;
+    max-width: 100%;
+}
+
+.resume-details-carousal{
+    transition: transform 1s ease-out;
+}
+
+.bullet-container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.bullets{
+    width: 80%;
+    position: relative;
+    z-index: 2;
+}
+
+.bullet{
+    display: flex;
+    align-items: center;
+     height: 40px;
+     margin: 15px 0px;
+      padding: 0px 0px;
+    transition: width 0.6s ease;
+    cursor: pointer;
+    
+}
+
+.bullet-label {
+  font-weight: bold;
+  white-space: nowrap;
+ font-family: 'Playfair Display', serif;
+ margin: -10px;
+}
+
+.bullet-logo {
+  margin: 0 30px 0 -25px; 
+  height: 50px;
+}
+
+.bullet-icons {
+    width: 40px;
+    height: 100%;
+    z-index: 1;
+    margin: -20px;
+    background-color: var(--secondary);
+    position: absolute;
+}
+
+.selected-bullet{
+    color: #fff;
+    width: 100%;
+    background-color:var(--secondary);
+    border-radius: 100px;
+}
+
+.resume-screen-container {
+     display: grid;
+    grid-template-columns: repeat(1fr, 1fr);
+    grid-gap: 20px;
+    width: 100%;
+    height: 360px;
+    padding-top: 5px;
+}
+
+.resume-heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume-main-heading{
+    grid-template-columns: repeat(1, 1fr);
+    display: grid;
+    justify-content: space-between;
+    
+   
+}
+
+.heading-bullet{
+     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-evenly;
+     font-family: 'Playfair Display', serif;
+    align-items: center;
+    position: relative;
+}
+
+
+.heading-bullet > * {
+    margin-right: 100px;
+   
+    
+}
+
+.heading-bullet span{
+    width: 100%;
+    display: block;
+}
+
+
+.heading-bullet::before {
+    content: '';
+    position: absolute;
+    left: -30px;
+    height: 15px;
+    width: 15px;
+    background-color: var(--primary);
+    border-radius: 50%;
+}
+
+.resume-sub-heading{
+    font-size: 14px;
+    color: #111;
+   margin-top: 15px;
+   margin-right: 30px;
+   text-align: left;
+    bottom: 20px;
+   
+}
+
+.resume-heading-description{
+    font-size: 12px;
+    text-align: justify;
+}
+
+.heading-date{  
+    margin-right: 0;
+    text-align: right;
+    position: absolute;
+     right: 20px;
+    background-color: var(--secondary);
+     padding: 4px 12px;
+     transform: translateY(0%);
+    border-radius: 14px;
+    font-size: 14px;
+}
+
+.skill-parent{
+    display: flex;
+    position: relative;
+    width: 40%;
+}
+
+.programming-skills-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skill-percentage{
+    position: absolute;
+   margin-top: 25px;
+    height: 15px;
+    width: 70%;
+    background-color: var(--secondary);
+}
+
+.skill-percentage .active-percentage{
+    height: 15px;
+    transition: 0.8s ease;
+    position: relative;
+    background-color: var(--primary);
+}
+
+.skill-parent span{
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 1110px) {
+    .resume-card{
+        width: 880px;
+    }
+
+    .resume-bullet-details{
+        padding: 0 0 0 70px;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .resume-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .bullets{
+        width: 90%;
+    }
+    
+    .resume-card{
+       
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0;
+        align-items: center;
+        width: 90%;
+    }
+
+    .resume-bullet-details{
+        height: 360px;
+        width: fit-content;
+        padding: 0 0 0 5px;
+    }
+
+    .resume-bullets{
+        width: 100%;
+        margin: 30px 0;      
+    }
+
+    .selected-bullet{
+        width: 100%;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4ea06fdb.css",
+    "main.js": "/static/js/main.1e37b50d.js",
+    "static/js/787.590f7fee.chunk.js": "/static/js/787.590f7fee.chunk.js",
+    "static/media/teee.jpg": "/static/media/teee.fbee5fd9815d21839c77.jpg",
+    "static/media/ceo-tuti.jpg": "/static/media/ceo-tuti.4e16e127faf511c95e84.jpg",
+    "static/media/img-lokosman.jpg": "/static/media/img-lokosman.ac59ed9113a30aa9fb2d.jpg",
+    "static/media/Programming.png": "/static/media/Programming.3b13e973272ea76a9658.png",
+    "static/media/bg.jpg": "/static/media/bg.ae426cec3c59059ec701.jpg",
+    "static/media/cto.jpg": "/static/media/cto.4613c01a52ee7dbfdcca.jpg",
+    "static/media/bg-bottom-hero.png": "/static/media/bg-bottom-hero.c91cc77ecf6aca0e49bd.png",
+    "static/media/bg-round.png": "/static/media/bg-round.e5f3782355cbf65cb64c.png",
+    "static/media/bg-newsletter.png": "/static/media/bg-newsletter.455d1d72fd3003c00f36.png",
+    "static/media/bg-tree.png": "/static/media/bg-tree.f9ca9ac7cb3e74f6f53d.png",
+    "static/media/bg-top.png": "/static/media/bg-top.0d5773024804ff349613.png",
+    "static/media/skill.svg": "/static/media/skill.0860e37c5f74e416c44a.svg",
+    "static/media/work.svg": "/static/media/work.8538307b787787e9120a.svg",
+    "index.html": "/index.html",
+    "static/media/project.svg": "/static/media/project.36c3cda9b0d1058d5ca6.svg",
+    "static/media/graduation-cap.svg": "/static/media/graduation-cap.d6b59a243e61573ca344.svg",
+    "static/media/interest.svg": "/static/media/interest.35edfa820bd226d62e27.svg",
+    "main.4ea06fdb.css.map": "/static/css/main.4ea06fdb.css.map",
+    "main.1e37b50d.js.map": "/static/js/main.1e37b50d.js.map",
+    "787.590f7fee.chunk.js.map": "/static/js/787.590f7fee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ea06fdb.css",
+    "static/js/main.1e37b50d.js"
+  ]
+}

@@ -1,0 +1,28 @@
+.footer-container{
+    width: 100%;
+    height: 17.8%;
+    overflow: hidden;
+    display: flex;
+}
+
+.footer-parent{
+    height:100%;
+    width: 100%;
+    max-width: 1920px;
+}
+
+.footer-img{
+    background-color: var(--primary);
+    width: 100%;
+    height: 150px; 
+     background-repeat: no-repeat;
+    background-position: top;
+    background-image: url(../../../assets/home/bg-tree.png);
+}
+
+@media only screen and (max-width:110px) {
+    .footer-parent{
+          display: flex;
+        align-items: flex-end;
+    }
+}
