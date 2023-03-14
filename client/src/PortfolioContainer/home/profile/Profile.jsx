@@ -5,6 +5,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { TypeAnimation } from 'react-type-animation';
 import 'bootstrap/dist/css/bootstrap.css'
 import './Profile.css'
+
 import ScrollService from '../../../utilities/ScrollService';
 
 export default function Profile() {
@@ -77,8 +78,7 @@ export default function Profile() {
                         </button>
 
                         <a className='a-highlight' href='lokos-Resume.pdf' download='lokosman-Resume.pdf'>
-                            <button className='bttn highlighted-btn'
-                                    style={{width:"150px"}}>Get Resume</button>
+                            <button className='bttn highlighted-btn'>Resume</button>
                         </a>
 
                     </div>
